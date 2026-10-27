@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b034f9e0-2190-4070-afab-01cb4db1a7df">
+  <producedTypes>
+    <objectType typeId="ac8fe92c-3a6e-471a-b59a-674a3dc1210e" valueTypeId="198af6c4-9551-445e-b694-1b9839ebbe53"/>
+    <refType typeId="eab4df08-c974-4b08-99b6-ccdfa640b26b" valueTypeId="dc0c37b5-81bd-4648-9142-e262976bed01"/>
+    <selectionType typeId="f86d54be-2bef-47bd-ab85-f8a46d785587" valueTypeId="eafe40ac-d877-4fa2-a1cc-065c65ca1c00"/>
+    <listType typeId="617e5497-6b0c-4031-b06c-e936881bc0a7" valueTypeId="381381e0-202f-4902-be6b-3b8b7b45e061"/>
+    <managerType typeId="61166be1-6850-4305-960c-5e1b1ee06dba" valueTypeId="83e52964-0397-4dea-b1f8-88a05e1d7a6a"/>
+    <containerType typeId="ed5f2443-e77a-46a3-8eb0-0215211ef770" valueTypeId="3306de40-0bbf-4d4c-852c-92336e20cf2d"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.Субконто</characteristicExtValues>
+  <type>
+    <types>CatalogRef.Субконто</types>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c759bef1-50e4-4b38-821d-536ad00245de">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

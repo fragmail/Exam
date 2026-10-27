@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="616435d9-121a-44b3-b342-13c89163ab67">
+  <producedTypes>
+    <objectType typeId="2ec8ebe5-336b-4cdd-a16d-dec76230e9d8" valueTypeId="2a602fc5-2fea-4c19-89fb-552e22d9012b"/>
+    <refType typeId="c4728276-1ecc-41d2-afff-488dce931dab" valueTypeId="be16f1a7-267f-4600-920e-7a5518a709b8"/>
+    <selectionType typeId="37e9a98a-f815-415b-9c25-eb11d0132169" valueTypeId="cb497f28-71a2-453f-bcbb-f9847c25a394"/>
+    <listType typeId="9caee6c3-84af-4a14-93e0-e50826ad1cc8" valueTypeId="934453a9-df2c-4616-a2b2-fcc8b05f3e7c"/>
+    <managerType typeId="f8f9358c-3b63-450d-8ccc-ee17c0997910" valueTypeId="4a00e1c7-5f68-463a-a0a7-d5044ec9840c"/>
+    <extDimensionTypes typeId="60c5bc37-d648-4e08-aded-e8ca407eb2db" valueTypeId="97d7a0eb-57d5-4d4b-9d60-219e29f6990e"/>
+    <extDimensionTypesRow typeId="fee1bf2b-c739-4335-961e-3dfe9cd4e161" valueTypeId="4b925219-0c32-4dd6-bc72-4638d77ddec5"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.Управленческий.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.Управленческий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>OffBalance</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>План счетов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>План счетов бухгалтерского учета &quot;Управленческий&quot;</value>
+  </extendedListPresentation>
+  <codeMask>@@.@@</codeMask>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <standardTabularSections>
+    <name>ExtDimensionTypes</name>
+    <synonym>
+      <key></key>
+      <value>Виды субконто</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>TurnoversOnly</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>ExtDimensionType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <predefined>
+    <items id="1ecf59cd-7c7c-4541-b1cc-9ed647199a80">
+      <name>Активы</name>
+      <description>Активы</description>
+      <code>01. </code>
+      <order>01</order>
+      <childItems id="346cc3c7-103a-4d25-bf9b-1c681e78c3d6">
+        <name>Касса</name>
+        <description>Касса</description>
+        <code>01.01</code>
+        <order>01.01</order>
+      </childItems>
+      <childItems id="d3dcdaa6-379d-4332-b22c-15854abc0e36">
+        <name>Товары</name>
+        <description>Товары</description>
+        <code>01.02</code>
+        <order>01.02</order>
+      </childItems>
+      <childItems id="d45d7407-e00d-405b-883f-6a7803ab2a04">
+        <name>ТоварыВПути</name>
+        <description>Товары в пути</description>
+        <code>01.03</code>
+        <order>01.03</order>
+      </childItems>
+      <childItems id="3a108e87-0900-4891-9ac2-a0fef7c1e9d8">
+        <name>Покупатели</name>
+        <description>Покупатели</description>
+        <code>01.04</code>
+        <accountType>ActivePassive</accountType>
+        <order>01.04</order>
+      </childItems>
+      <childItems id="eb9d2fda-19b5-4e64-b04a-a89a5b7c55dc">
+        <name>ОсновноеПроизводство</name>
+        <description>Основное производство</description>
+        <code>01.05</code>
+        <order>01.05</order>
+      </childItems>
+      <childItems id="62313e5e-bbfa-405f-ab11-dd36b512d404">
+        <name>ОбщехозяйственныеЗатраты</name>
+        <description>Общехозяйственные затраты</description>
+        <code>01.06</code>
+        <order>01.06</order>
+      </childItems>
+      <childItems id="599850ab-c19a-424f-b0b5-47cb77c464f6">
+        <name>КредитыИЗаймыВыданные</name>
+        <description>Кредиты и займы выданные</description>
+        <code>01.07</code>
+        <order>01.07</order>
+      </childItems>
+      <childItems id="dbb2d53f-921f-4950-acd7-f58cd7deb21b">
+        <name>Материалы</name>
+        <description>Материалы</description>
+        <code>01.08</code>
+        <order>01.08</order>
+      </childItems>
+    </items>
+    <items id="267b8ea5-0794-46a9-99be-f2cc0401aabf">
+      <name>Обязательства</name>
+      <description>Обязательства</description>
+      <code>02. </code>
+      <accountType>Passive</accountType>
+      <order>02</order>
+      <childItems id="3f3ef9ab-bd80-4500-acdb-d1650be906ef">
+        <name>Сотрудники</name>
+        <description>Сотрудники</description>
+        <code>02.01</code>
+        <accountType>ActivePassive</accountType>
+        <order>02.01</order>
+      </childItems>
+      <childItems id="94f2af88-b791-444b-a33a-e37e7cb1edfd">
+        <name>Поставщики</name>
+        <description>Поставщики</description>
+        <code>02.02</code>
+        <accountType>ActivePassive</accountType>
+        <order>02.02</order>
+      </childItems>
+      <childItems id="95755e4d-b479-482a-8817-3218c25df481">
+        <name>КредитыИЗаймыПолученные</name>
+        <description>Кредиты и займы полученные</description>
+        <code>02.03</code>
+        <accountType>Passive</accountType>
+        <order>02.03</order>
+      </childItems>
+      <childItems id="b101ac7d-c2f8-479e-b094-532103bb0ce8">
+        <name>Налоги</name>
+        <description>Налоги</description>
+        <code>02.04</code>
+        <accountType>Passive</accountType>
+        <order>02.04</order>
+      </childItems>
+    </items>
+    <items id="b8d32161-548c-4460-83b2-6a5d1f68743c">
+      <name>ПрибылиУбытки</name>
+      <description>Прибыли и убытки</description>
+      <code>03</code>
+      <accountType>ActivePassive</accountType>
+      <order>03</order>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <autoOrderByCode>true</autoOrderByCode>
+  <orderLength>9</orderLength>
+</mdclass:ChartOfAccounts>
